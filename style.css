@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+#desctop {
+  width: 1440px;
+  height: 4005px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#desctop .continer {
+  width: 1320px;
+  margin: 0 auto;
+  height: 874px;
+}
+
+#desctop .continer #header {
+  width: 1320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#desctop .continer #header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+}
+
+#desctop .continer #header .quti1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+#desctop .continer #header .quti1 p {
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+}
+
+#desctop .continer .rasm {
+  width: 100%;
+  height: 807px;
+  background-image: url(image/1.png);
+  margin-top: 20px;
+}
+
+#desctop #project {
+  width: 100%;
+  height: 2580px;
+  margin: 120px auto;
+}
+
+#desctop #project h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+  margin-left: 60px;
+}
+
+#desctop #project .continer {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#desctop #project .continer .box {
+  width: 640px;
+  height: 480px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#desctop #project .continer .box img {
+  width: 100%;
+}
+
+#desctop #project .continer .box h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#desctop #futer {
+  margin: 0 auto;
+  width: 100%;
+  height: 275px;
+}
+
+#desctop #futer .box {
+  margin-top: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#desctop #futer .box ul {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
